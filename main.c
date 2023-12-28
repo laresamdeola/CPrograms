@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include "bmi.h"
 
-int main(void){
+int main() {
   /*
   int age = 32;
   int length = 100;
@@ -12,5 +13,9 @@ int main(void){
   printf("%.4f", heightByPi);
   return 0;
   */
-  lifeExpectancy();
+  // lifeExpectancy();
+  // names("Lare", 28);
+  float result = bmi(92, 184);
+  printf("Your bmi is %.2f", result);
+  return 0;
 }
