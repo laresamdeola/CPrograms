@@ -1,5 +1,6 @@
 #include "age.h"
 #include "bmi.h"
+#include "profit.h"
 #include <stdio.h>
 
 int main() {
@@ -19,6 +20,11 @@ int main() {
   /*float result = bmi(98, 184);
   printf("Your bmi is %.2f", result);
   return 0;*/
+  /*
   int birthYear = age(1975);
   printf("%d", birthYear);
+  */
+  float profitCalc = profit(25366, 9237);
+  float avgRevenueCalc = averageRevenue(25366, 9237);
+  printf("%.2f \n%.2f", profitCalc, avgRevenueCalc);
 }
