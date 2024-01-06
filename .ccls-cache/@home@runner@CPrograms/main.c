@@ -1,6 +1,8 @@
+#include "absnumber.h"
 #include "age.h"
 #include "bmi.h"
 #include "profit.h"
+#include "votersAge.h"
 #include <stdio.h>
 
 int main() {
@@ -24,7 +26,20 @@ int main() {
   int birthYear = age(1975);
   printf("%d", birthYear);
   */
+  /*
   float profitCalc = profit(25366, 9237);
   float avgRevenueCalc = averageRevenue(25366, 9237);
   printf("%.2f \n%.2f", profitCalc, avgRevenueCalc);
+  */
+  int votingAge = votersAge(2000);
+  /*
+  if(votingAge == 1){
+    printf("You are old enough to vote");
+  } else {
+    printf("You are not yet old enough to vote");
+  }*/
+  //(votingAge == 1) ? printf("You are old enough to vote") : printf("You are
+  //not yet old enough to vote");
+  float abs = absnumber(-15);
+  printf("%.2f", abs);
 }
