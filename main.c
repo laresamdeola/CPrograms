@@ -1,5 +1,6 @@
-#include <stdio.h>
+#include "age.h"
 #include "bmi.h"
+#include <stdio.h>
 
 int main() {
   /*
@@ -15,7 +16,9 @@ int main() {
   */
   // lifeExpectancy();
   // names("Lare", 28);
-  float result = bmi(98, 184);
+  /*float result = bmi(98, 184);
   printf("Your bmi is %.2f", result);
-  return 0;
+  return 0;*/
+  int birthYear = age(1975);
+  printf("%d", birthYear);
 }
