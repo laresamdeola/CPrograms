@@ -15,7 +15,7 @@ int main() {
   */
   // lifeExpectancy();
   // names("Lare", 28);
-  float result = bmi(92, 184);
+  float result = bmi(98, 184);
   printf("Your bmi is %.2f", result);
   return 0;
 }
