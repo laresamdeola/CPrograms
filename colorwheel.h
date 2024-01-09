@@ -7,6 +7,8 @@ char colorWheel(char color[]) {
     printf("Primary");
   } else if (color == "orange" || color == "green" || color == "purple") {
     printf("Secondary");
+  } else if (color == "white" || color == "black") {
+    printf("Monochrome");
   } else {
     printf("Tertiary");
   }
