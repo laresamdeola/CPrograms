@@ -1,11 +1,12 @@
-#include <stdio.h>
 #include "absnumber.h"
 #include "age.h"
 #include "bmi.h"
+#include "colorwheel.h"
+#include "monthdays.h"
 #include "profit.h"
 #include "votersAge.h"
-#include "colorwheel.h"
 #include <ctype.h>
+#include <stdio.h>
 #include <string.h>
 
 int main() {
@@ -34,7 +35,7 @@ int main() {
   float avgRevenueCalc = averageRevenue(25366, 9237);
   printf("%.2f \n%.2f", profitCalc, avgRevenueCalc);
   */
-  //int votingAge = votersAge(2000);
+  // int votingAge = votersAge(2000);
   /*
   if(votingAge == 1){
     printf("You are old enough to vote");
@@ -42,8 +43,7 @@ int main() {
     printf("You are not yet old enough to vote");
   }*/
   //(votingAge == 1) ? printf("You are old enough to vote") : printf("You are
-  //not yet old enough to vote");
-  //float abs = absnumber(-15);
-  //printf("%.2f", abs);
-  printf("%c", colorWheel("orange"));
+  // not yet old enough to vote");
+  // float abs = absnumber(-15);
+  // printf("%.2f", abs);
 }
